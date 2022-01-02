@@ -1,10 +1,13 @@
 # dblpct
 
-Doubles the % in the string.
+The % in the string given as the first argument is doubled and output to stdout.
 
 ## install
 
-※あとで書く
+```
+# pip install dblpct
+```
+
 
 ## how to use
 
