@@ -1,4 +1,5 @@
 .Python
+.pypirc
 Pipfile.lock
 *.egg-info
 *.egg
