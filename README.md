@@ -1,6 +1,7 @@
 # dblpct
 
-The % in the string given as the first argument is doubled and output to stdout.
+The % in the string given as the first argument is doubled and output to stdout.  
+It's my hobby CLI tool.  
 
 ## install
 
@@ -19,7 +20,7 @@ http://example.com/%%E3%%83%%86%%E3%%82%%B9%%E3%%83%%88URL
 
 ex2)
 ```
-# dblpct -r http://example.com/%E3%83%86%E3%82%B9%E3%83%88URL
+# dblpct -r http://example.com/%%E3%%83%%86%%E3%%82%%B9%%E3%%83%%88URL
 http://example.com/%E3%83%86%E3%82%B9%E3%83%88URL
 ```
 
