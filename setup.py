@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
     name="dblpct",
-    version="1.20220102",
-    description="Reduce % to two.",
+    version="20220108",
+    description="doble the % to two.",
     url="https://github.com/mollinaca/dblpct",
     author="mollinaca",
     author_email="mail@mollinaca.dev",
