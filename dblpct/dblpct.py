@@ -1,12 +1,12 @@
 import argparse
 
 
-def dblpct(target):
+def dblpct(target: str) -> str:
     ret = target.replace("%", "%%")
     return ret
 
 
-def dblpct_r(target):
+def dblpct_r(target: str) -> str:
     ret = ""
     skip = False
     target_len = len(target) - 1
