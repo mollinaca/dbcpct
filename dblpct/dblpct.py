@@ -2,12 +2,7 @@ import argparse
 
 
 def dblpct(target):
-    ret = ""
-    for x in target:
-        if x == "%":
-            ret += "%%"
-        else:
-            ret += x
+    ret = target.replace("%", "%%")
     return ret
 
 
