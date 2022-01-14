@@ -1,5 +1,7 @@
 # dblpct
 
+![dblpct_logo](https://github.com/mollinaca/dblpct/blob/master/src/dblpct.png?raw=true)
+
 The % in the string given as the first argument is doubled and output to stdout.  
 It's my hobby CLI tool.  
 
