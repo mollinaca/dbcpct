@@ -7,23 +7,7 @@ def dblpct(target: str) -> str:
 
 
 def dblpct_r(target: str) -> str:
-    ret = ""
-    skip = False
-    target_len = len(target) - 1
-
-    for i, x in enumerate(target):
-        if skip:
-            skip = False
-            continue
-        else:
-            if i is target_len:
-                ret += x
-            else:
-                if x == "%" and target[i + 1] == "%":
-                    ret += x
-                    skip = True
-                else:
-                    ret += x
+    ret = target.replace("%%", "%")
     return ret
 
 
